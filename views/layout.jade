@@ -1,0 +1,14 @@
+html
+  head
+    link(rel="stylesheet", href="/libs/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/libs/bootstrap/dist/css/bootstrap-theme.min.css")
+    script(src="/libs/jquery/dist/jquery.min.js")
+    script(src="/libs/bootstrap/dist/js/bootstrap.min.js")
+  body
+    div.jumbotron
+      div.container
+        h1
+          block title
+    div.container
+      a(href="#")=path
+      block mainContent
